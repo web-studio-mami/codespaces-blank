@@ -1,0 +1,1 @@
+{"version":3,"file":"PolicyDialog.d.ts","sourceRoot":"","sources":["../../src/components/PolicyDialog.tsx"],"names":[],"mappings":"AASA,UAAU,iBAAiB;IACzB,IAAI,EAAE,OAAO,CAAC;IACd,YAAY,EAAE,CAAC,IAAI,EAAE,OAAO,KAAK,IAAI,CAAC;IACtC,IAAI,EAAE,SAAS,GAAG,OAAO,GAAG,IAAI,CAAC;CAClC;AAED,wBAAgB,YAAY,CAAC,EAC3B,IAAI,EACJ,YAAY,EACZ,IAAI,GACL,EAAE,iBAAiB,2CAyTnB"}

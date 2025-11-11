@@ -1,0 +1,1 @@
+{"version":3,"file":"InfoDialog.d.ts","sourceRoot":"","sources":["../../src/components/InfoDialog.tsx"],"names":[],"mappings":"AAsBA,UAAU,eAAe;IACvB,IAAI,EAAE,OAAO,CAAC;IACd,YAAY,EAAE,CAAC,IAAI,EAAE,OAAO,KAAK,IAAI,CAAC;IACtC,IAAI,EAAE,UAAU,GAAG,SAAS,GAAG,UAAU,GAAG,IAAI,CAAC;CAClD;AAED,wBAAgB,UAAU,CAAC,EACzB,IAAI,EACJ,YAAY,EACZ,IAAI,GACL,EAAE,eAAe,2CAgVjB"}

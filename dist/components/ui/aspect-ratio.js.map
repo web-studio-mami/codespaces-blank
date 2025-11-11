@@ -1,0 +1,1 @@
+{"version":3,"file":"aspect-ratio.js","sourceRoot":"","sources":["../../../src/components/ui/aspect-ratio.tsx"],"names":[],"mappings":"AAAA,YAAY,CAAC;;AAEb,OAAO,KAAK,oBAAoB,MAAM,oCAAoC,CAAC;AAE3E,SAAS,WAAW,CAAC,EACnB,GAAG,KAAK,EAC+C;IACvD,OAAO,CACL,KAAC,oBAAoB,CAAC,IAAI,iBACd,cAAc,KACpB,KAAK,GACT,CACH,CAAC;AACJ,CAAC;AAED,OAAO,EAAE,WAAW,EAAE,CAAC"}

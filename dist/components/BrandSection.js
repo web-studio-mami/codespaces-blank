@@ -1,0 +1,33 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import { Sparkles, Target, Heart, Zap } from "lucide-react";
+import { ImageWithFallback } from "./figma/ImageWithFallback.js";
+import { AnimatedSection } from "./AnimatedSection.js";
+export function BrandSection() {
+    const values = [
+        {
+            icon: Sparkles,
+            title: "Индивидуальность",
+            description: "Уникальные принты и дизайны, отражающие твою личность",
+        },
+        {
+            icon: Target,
+            title: "Качество",
+            description: "Премиальные материалы и внимание к деталям в каждом изделии",
+        },
+        {
+            icon: Heart,
+            title: "Локальность",
+            description: "Вдохновение от российской уличной культуры и авангарда",
+        },
+        {
+            icon: Zap,
+            title: "Эксклюзивность",
+            description: "Лимитированные тиражи и специальные коллаборации",
+        },
+    ];
+    return (_jsx("section", { id: "about", className: "py-12 md:py-24 bg-muted/30 overflow-hidden", children: _jsxs("div", { className: "container mx-auto px-4", children: [_jsxs("div", { className: "grid md:grid-cols-2 gap-8 md:gap-16 items-center mb-16 md:mb-24", children: [_jsxs(AnimatedSection, { className: "space-y-8", children: [_jsxs("div", { className: "space-y-4", children: [_jsx("div", { className: "inline-block border-2 border-foreground px-4 py-2 uppercase tracking-wider", children: "\u041E \u0431\u0440\u0435\u043D\u0434\u0435" }), _jsx("h2", { className: "text-4xl md:text-5xl uppercase tracking-tight", children: "Urban Bloom" }), _jsx("p", { className: "text-lg text-muted-foreground", children: "\u041C\u044B \u0441\u043E\u0437\u0434\u0430\u0435\u043C \u0441\u043E\u0432\u0440\u0435\u043C\u0435\u043D\u043D\u0443\u044E \u0443\u043B\u0438\u0447\u043D\u0443\u044E \u043C\u043E\u0434\u0443, \u043A\u043E\u0442\u043E\u0440\u0430\u044F \u043E\u0431\u044A\u0435\u0434\u0438\u043D\u044F\u0435\u0442 \u043C\u0438\u043D\u0438\u043C\u0430\u043B\u0438\u0437\u043C, \u0440\u0443\u0441\u0441\u043A\u0438\u0439 \u0430\u0432\u0430\u043D\u0433\u0430\u0440\u0434 \u0438 \u043B\u043E\u043A\u0430\u043B\u044C\u043D\u0443\u044E \u043A\u0443\u043B\u044C\u0442\u0443\u0440\u0443. \u041A\u0430\u0436\u0434\u0430\u044F \u0432\u0435\u0449\u044C \u2014 \u044D\u0442\u043E \u0438\u0441\u0442\u043E\u0440\u0438\u044F, \u0432\u0434\u043E\u0445\u043D\u043E\u0432\u043B\u0435\u043D\u043D\u0430\u044F \u0434\u0438\u043D\u0430\u043C\u0438\u043A\u043E\u0439 \u0433\u043E\u0440\u043E\u0434\u0430 \u0438 \u0441\u0442\u0440\u0435\u043C\u043B\u0435\u043D\u0438\u0435\u043C \u043A \u0441\u0430\u043C\u043E\u0432\u044B\u0440\u0430\u0436\u0435\u043D\u0438\u044E." })] }), _jsxs("div", { className: "space-y-4", children: [_jsx("p", { className: "text-muted-foreground", children: "\u041E\u0441\u043D\u043E\u0432\u0430\u043D\u043D\u044B\u0439 \u0432 2025 \u0433\u043E\u0434\u0443, Urban Bloom \u0441\u0442\u0430\u043B \u043F\u043B\u0430\u0442\u0444\u043E\u0440\u043C\u043E\u0439 \u0434\u043B\u044F \u0442\u0432\u043E\u0440\u0447\u0435\u0441\u043A\u043E\u0439 \u043C\u043E\u043B\u043E\u0434\u0435\u0436\u0438, \u043A\u043E\u0442\u043E\u0440\u0430\u044F \u0438\u0449\u0435\u0442 \u0430\u0443\u0442\u0435\u043D\u0442\u0438\u0447\u043D\u043E\u0441\u0442\u044C \u0432 \u043C\u0430\u0441\u0441\u043E\u0432\u043E\u0439 \u043A\u0443\u043B\u044C\u0442\u0443\u0440\u0435. \u041C\u044B \u0441\u043E\u0442\u0440\u0443\u0434\u043D\u0438\u0447\u0430\u0435\u043C \u0441 \u043B\u043E\u043A\u0430\u043B\u044C\u043D\u044B\u043C\u0438 \u0445\u0443\u0434\u043E\u0436\u043D\u0438\u043A\u0430\u043C\u0438, \u043C\u0443\u0437\u044B\u043A\u0430\u043D\u0442\u0430\u043C\u0438 \u0438 \u0434\u0438\u0437\u0430\u0439\u043D\u0435\u0440\u0430\u043C\u0438, \u0441\u043E\u0437\u0434\u0430\u0432\u0430\u044F \u0443\u043D\u0438\u043A\u0430\u043B\u044C\u043D\u044B\u0435 \u043A\u043E\u043B\u043B\u0435\u043A\u0446\u0438\u0438 \u043E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u043D\u044B\u043C \u0442\u0438\u0440\u0430\u0436\u043E\u043C." }), _jsx("p", { className: "text-muted-foreground", children: "\u041D\u0430\u0448\u0430 \u043C\u0438\u0441\u0441\u0438\u044F \u2014 \u0434\u0435\u043B\u0430\u0442\u044C \u043A\u0430\u0447\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0439 \u0441\u0442\u0440\u0438\u0442\u0432\u0438\u0440 \u0434\u043E\u0441\u0442\u0443\u043F\u043D\u044B\u043C, \u0441\u043E\u0445\u0440\u0430\u043D\u044F\u044F \u043F\u0440\u0438 \u044D\u0442\u043E\u043C \u044D\u043A\u0441\u043A\u043B\u044E\u0437\u0438\u0432\u043D\u043E\u0441\u0442\u044C \u0438 \u0438\u043D\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043B\u044C\u043D\u044B\u0439 \u043F\u043E\u0434\u0445\u043E\u0434 \u043A \u043A\u0430\u0436\u0434\u043E\u043C\u0443 \u043F\u0440\u043E\u0434\u0443\u043A\u0442\u0443." })] }), _jsx("div", { className: "flex items-center gap-2 md:gap-3 pt-4" })] }), _jsx(AnimatedSection, { delay: 200, className: "relative", children: _jsxs("div", { className: "relative aspect-[4/5]", children: [_jsx(ImageWithFallback, { src: "https://images.unsplash.com/photo-1730054159372-7d55931ab435?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxncmFmZml0aSUyMHdhbGwlMjBhcnR8ZW58MXx8fHwxNzYyNzQ4MDE2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral", alt: "Urban culture", className: "w-full h-full object-cover" }), _jsx("div", { className: "absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" }), _jsxs("div", { className: "absolute bottom-4 left-4 right-4 md:bottom-8 md:left-8 md:right-8 text-white", children: [_jsx("div", { className: "text-2xl md:text-4xl uppercase tracking-tight", children: "\u0423\u043B\u0438\u0447\u043D\u0430\u044F \u043A\u0443\u043B\u044C\u0442\u0443\u0440\u0430" }), _jsx("div", { className: "text-xs md:text-sm uppercase tracking-wider mt-2 opacity-80", children: "\u0412\u0434\u043E\u0445\u043D\u043E\u0432\u0435\u043D\u0438\u0435 \u0438\u0437 \u0433\u043E\u0440\u043E\u0434\u0430" })] })] }) })] }), _jsx("div", { className: "grid md:grid-cols-4 gap-8", children: values.map((value, index) => {
+                        const Icon = value.icon;
+                        return (_jsxs(AnimatedSection, { delay: index * 100, className: "text-center space-y-4", children: [_jsx("div", { className: "inline-flex items-center justify-center w-16 h-16 bg-foreground text-background", children: _jsx(Icon, { className: "w-8 h-8" }) }), _jsxs("div", { className: "space-y-2", children: [_jsx("h3", { className: "uppercase tracking-wider", children: value.title }), _jsx("p", { className: "text-sm text-muted-foreground", children: value.description })] })] }, index));
+                    }) })] }) }));
+}
+//# sourceMappingURL=BrandSection.js.map

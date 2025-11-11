@@ -1,0 +1,1 @@
+{"version":3,"file":"NotifyDialog.d.ts","sourceRoot":"","sources":["../../src/components/NotifyDialog.tsx"],"names":[],"mappings":"AAaA,UAAU,iBAAiB;IACzB,IAAI,EAAE,OAAO,CAAC;IACd,YAAY,EAAE,CAAC,IAAI,EAAE,OAAO,KAAK,IAAI,CAAC;IACtC,cAAc,EAAE,MAAM,CAAC;CACxB;AAED,wBAAgB,YAAY,CAAC,EAC3B,IAAI,EACJ,YAAY,EACZ,cAAc,GACf,EAAE,iBAAiB,2CAmGnB"}
