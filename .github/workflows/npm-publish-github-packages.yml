@@ -1,32 +1,26 @@
-name: Deploy React + Vite to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # ваша основная ветка с исходниками
-  workflow_dispatch:  # для ручного запуска из GitHub UI
+      - main
+
+permissions:
+  contents: write
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: 20
+      - name: Install and Build
+        run: |
+          npm ci
+          npm run build
 
-    - name: Install dependencies
-      run: npm ci
-
-    - name: Build project
-      run: npm run build  # обязательно прописано в package.json (vite build)
-
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist  # папка с готовыми файлами после сборки Vite
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist
